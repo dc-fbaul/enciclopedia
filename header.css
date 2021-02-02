@@ -1,0 +1,116 @@
+#header {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(237, 28, 39);
+    position: relative;
+    cursor: pointer;
+}
+
+.enciclopedia {
+    position: absolute;
+    width: 396px;
+    height: 61px;
+    left: calc(50% - 198px);
+    top: calc(50% - 30.5px);
+    font-family: TT Jenevers;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 61px;
+    color: white;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 1.5px;
+
+}
+
+.assinatura {
+    position: absolute;
+    width: 490px;
+    height: 30px;
+    left: calc(50% - 198px);
+    top: calc(50% + 30.5px);
+
+    font-family: TT Jenevers;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+
+}
+
+#sobre {
+    position: absolute;
+    width: 87px;
+    height: 30px;
+   right: 15%;
+    top: 4%;
+
+    font-family: TT Jenevers;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #FFFFFF;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-feature-settings: normal;
+}
+
+#sobre:hover {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 0.7px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+#sobre-popup {
+    background-image: url(img/popup.svg);
+    background-size: cover;
+position: absolute;
+width: 691px;
+height: 636px;
+    left: 373px;
+    top: 104px;
+    z-index: 1;
+    display: none;
+}
+
+
+button:hover {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 0.7px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+
+.numero {
+    position: absolute;
+    width: 49px;
+    height: 30px;
+    right: 5%;
+    top: 4%;
+    font-family: TT Jenevers;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 0.7px;
+    text-decoration: none;
+}

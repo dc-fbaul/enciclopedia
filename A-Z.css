@@ -1,0 +1,1860 @@
+@font-face {
+    src: url(fonts/TTJenevers-Medium.ttf);
+    font-family: Jen;
+}
+
+
+body {
+    background-color: white;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+/* HERO */
+
+#hero {
+    width: 100%;
+    height: 797px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+
+.hero-alice {
+    background-image: url(img/alice-red.svg);
+    background-size: cover;
+    position: absolute;
+    width: 1593px;
+    height: 767px;
+    left: calc(50% - 796.5px);
+    top: 7%;
+}
+
+
+
+#square {
+    width: 200px;
+    height: 300px;
+    background-color: rgb(237, 28, 39);
+    left: calc(50% - 100px);
+    top: calc(50% - 150px);
+    position: fixed;
+    z-index: 999;
+}
+
+
+
+#menu {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(237, 28, 39);
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 1001;
+    font-family: TT Jenevers;
+font-style: normal;
+font-weight: 500;
+    font-size: 18px;
+}
+
+.enciclopedia {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    padding-left: 40px;
+    box-sizing: border-box;
+    color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.assinatura {
+    display: flex;
+    visibility: hidden;
+    align-items: center;
+    position: absolute;
+    width: 231px;
+    height: 46px;
+    left: 235px;
+    top: 55px;
+
+}
+
+.enciclopedia:hover .assinatura {
+    visibility: visible;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 18px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 0.7px;
+}
+
+#navega {
+    width: 50%;
+    height: 100%;
+    /* background-color: palevioletred;*/
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 40px;
+
+}
+
+.menu-item {
+    display: flex;
+    float: left;
+    padding: 0px 20px 0px 60px;
+    box-sizing: border-box;
+    font-size: 18px;
+
+}
+
+.a-z {
+    display: flex;
+    float: left;
+    padding: 0px 20px 0px 60px;
+    box-sizing: border-box;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 0.7px;
+    color: white;
+
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu-item a:hover {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 0.7px;
+}
+
+
+
+
+
+
+/* SECTION 2*/
+
+
+
+#section2 {
+    width: 100%;
+    height: 11790px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.home {
+    position: absolute;
+    width: 86.61px;
+    height: 45px;
+    left: 2%;
+    bottom: 1%;
+    background-size: cover;
+    position: fixed;
+    z-index: 999;
+}
+
+.home:hover {
+    cursor: pointer;
+}
+
+.titulo {
+    position: absolute;
+    width: 167px;
+    height: 35px;
+    left: 15%;
+    top: 0.70%;
+    font-family: TT Jenevers;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 46px;
+    color: rgb(237, 28, 39);
+}
+
+
+
+
+
+#A {
+    position: absolute;
+    width: 803px;
+    height: 953px;
+    left: -15%;
+    top: 0.05%;
+    font-family: TT Jenevers;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 900px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    color: rgb(237, 28, 39);
+}
+
+.title1A {
+    width: 689px;
+    height: 69px;
+    color: rgb(237, 28, 39);
+    font-family: TT Jenevers;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 500;
+    position: absolute;
+    left: 15%;
+    top: 2%;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+}
+
+.subtitle1A {
+    position: absolute;
+    width: 238px;
+    height: 33px;
+    left: 15%;
+    top: 2.35%;
+    font-family: TT Jenevers;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 38px;
+    color: rgb(237, 28, 39);
+}
+
+.text1A {
+    width: 300px;
+    height: 184px;
+    position: absolute;
+    left: 18%;
+    top: 3%;
+
+}
+
+.nota1A {
+    display: none;
+    position: absolute;
+    width: 318px;
+    height: 353px;
+    left: 5%;
+    top: 1%;
+
+
+}
+
+.text1A:hover + .nota1A {
+    display: block;
+
+}
+
+
+.title2A {
+    position: absolute;
+    width: 689px;
+    height: 40px;
+    left: 770px;
+    top: 370px;
+    font-family: TT Jenevers;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 30px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    color: rgb(237, 28, 39);
+
+}
+
+.subtitle2A {
+    position: absolute;
+    width: 238px;
+    height: 33px;
+    left: 770px;
+    top: 415px;
+
+    font-family: TT Jenevers;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 38px;
+
+    color: rgb(237, 28, 39);
+}
+
+.text2A {
+
+    position: absolute;
+    width: 300px;
+    height: 466px;
+    left: 1013px;
+    top: 470px;
+
+}
+
+.nota2A {
+    display: none;
+    position: absolute;
+    top: 280px;
+    left: 965px;
+}
+
+.text2A:hover + .nota2A {
+    display: block;
+}
+
+
+
+
+/*ALICE*/
+
+.title3A {
+    width: 374px;
+    height: 40px;
+    position: absolute;
+    top: 730px;
+    left: 400px;
+    transform: rotate(-90deg);
+    font-family: TT Jenevers;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 30px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    color: rgb(237, 28, 39);
+}
+
+.subtitle3A {
+    font-family: TT Jenevers;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(237, 28, 39);
+    position: absolute;
+    width: 201px;
+    height: 33px;
+    left: 520px;
+    top: 820px;
+    transform: rotate(-90deg);
+}
+
+.alice {
+    position: absolute;
+    width: 329px;
+    height: 187px;
+    left: 700px;
+    top: 800px;
+    background-image: url(img/alice-red-2.svg);
+    background-size: cover;
+}
+
+
+
+/*B*/
+
+
+.B {
+    position: absolute;
+    width: 633px;
+    height: 950px;
+    left: 60%;
+    top: 8%;
+
+    font-family: TT Jenevers;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 900px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    color: rgb(237, 28, 39);
+}
+
+.tituloB {
+    position: absolute;
+    width: 89px;
+    height: 31px;
+    left: 50%;
+    top: 10%;
+
+    font-family: TT Jenevers;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 30px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    color: rgb(237, 28, 39);
+
+}
+
+.textoB {
+    position: absolute;
+    width: 330px;
+    height: 300px;
+    left: 50%;
+    top: 10.5%;
+
+}
+
+.notaB {
+    position: absolute;
+    width: 278px;
+    height: 135px;
+    left: 60%;
+    top: 10%;
+    display: none;
+}
+
+.textoB:hover + .notaB {
+    display: block;
+}
+
+.titulo2B {
+    position: absolute;
+    width: 333px;
+    height: 76px;
+    left: 887px;
+    top: 1600px;
+
+    font-family: TT Jenevers;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 30px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    color: rgb(237, 28, 39);
+}
+
+.subtitulo2B {
+    font-family: TT Jenevers;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(237, 28, 39);
+    position: absolute;
+    width: 238px;
+    height: 33px;
+    left: 887px;
+    top: 1640px;
+
+}
+
+
+
+
+
+/*C*/
+
+.C {
+    position: absolute;
+    width: 633px;
+    height: 950px;
+    right: 75%;
+    top: 1191px;
+
+    font-family: TT Jenevers;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 900px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    color: rgb(237, 28, 39);
+}
+
+.tituloC {
+    position: absolute;
+    width: 403px;
+    height: 38px;
+    left: 6%;
+    top: 10%;
+
+}
+
+.textoC {
+    position: absolute;
+    width: 300px;
+    height: 327px;
+    top: 13%;
+    left: 13%;
+}
+
+.notaC {
+    position: absolute;
+    width: 327px;
+    height: 354px;
+    top: 10.5%;
+    left: 15%;
+    display: none;
+}
+
+.textoC:hover + .notaC {
+    display: block;
+}
+
+
+.titulo2C {
+    position: absolute;
+    width: 403px;
+    height: 38px;
+    left: 30%;
+    top: 16%;
+
+}
+
+.catcher {
+    position: absolute;
+    width: 158px;
+    height: 256px;
+    top: 16%;
+    left: 7%;
+}
+
+
+
+
+
+
+
+/*D*/
+
+.D {
+    position: absolute;
+    width: 766px;
+    height: 884px;
+    left: 60%;
+    top: 1752px;
+
+    font-family: TT Jenevers;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 900px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    color: rgb(237, 28, 39);
+}
+
+.tituloD {
+
+    position: absolute;
+    width: 74px;
+    height: 406px;
+    top: 18%;
+    left: 58%;
+}
+
+.textoD {
+    position: absolute;
+    width: 300px;
+    height: 132px;
+    top: 19%;
+    left: 56%;
+}
+
+.notaD {
+    position: absolute;
+    width: 227px;
+    height: 197px;
+    top: 19.5%;
+    left: 70%;
+    display: none;
+}
+
+.textoD:hover + .notaD {
+    display: block;
+}
+
+
+
+/*E*/
+
+.E {
+    position: absolute;
+    width: 633px;
+    height: 950px;
+    left: 10%;
+    top: 2104px;
+
+    font-family: TT Jenevers;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 900px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    color: rgb(237, 28, 39);
+}
+
+.tituloE {
+    position: absolute;
+    width: 403px;
+    height: 38px;
+    left: 6%;
+    top: 20%;
+
+}
+
+.textoE {
+    position: absolute;
+    width: 300px;
+    height: 157px;
+    top: 22%;
+    left: 15%;
+}
+
+.notaE {
+    position: absolute;
+    width: 227px;
+    height: 261px;
+    top: 23%;
+    left: 20%;
+    display: none;
+    z-index: 1;
+}
+
+.textoE:hover + .notaE {
+    display: block;
+}
+
+
+.titulo2E {
+    position: absolute;
+    width: 403px;
+    height: 38px;
+    left: 557px;
+    top: 2745px;
+
+    font-family: TT Jenevers;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 30px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    color: rgb(237, 28, 39);
+
+}
+
+.subtitulo2E {
+    position: absolute;
+    width: 300px;
+    height: 33px;
+    left: 557px;
+    top: 2785px;
+
+    font-family: TT Jenevers;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(237, 28, 39);
+
+}
+
+.elmer {
+    position: absolute;
+    width: 171px;
+    height: 262px;
+    top: 24%;
+    left: 15%;
+}
+
+
+
+
+/*F*/
+
+.F {
+    position: absolute;
+    width: 633px;
+    height: 950px;
+    left: 65%;
+    top: 2699px;
+
+    font-family: TT Jenevers;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 900px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    color: rgb(237, 28, 39);
+}
+
+.tituloF {
+    position: absolute;
+    width: 403px;
+    height: 38px;
+    left: 50%;
+    top: 27%;
+}
+
+
+.titulo1F {
+    position: absolute;
+    width: 399px;
+    height: 70px;
+    left: 70%;
+    top: 25.4%;
+}
+
+.texto1F {
+    position: absolute;
+    width: 300px;
+    height: 195px;
+    top: 26.5%;
+    left: 68%;
+}
+
+.notaF {
+    position: absolute;
+    width: 227px;
+    height: 160px;
+    top: 27.5%;
+    left: 72%;
+    display: none;
+}
+
+
+.texto1F:hover + .notaF{
+    display: block;
+}
+
+
+.felizmente {
+    position: absolute;
+    width: 190px;
+    height: 271px;
+    top: 28.5%;
+    left: 61%;
+}
+
+
+
+
+
+
+
+
+/*G*/
+
+
+.G {
+    position: absolute;
+    width: 633px;
+    height: 950px;
+    right: 65%;
+    top: 3054px;
+
+    font-family: TT Jenevers;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 900px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    color: rgb(237, 28, 39);
+}
+
+.tituloG {
+
+    position: absolute;
+    width: 426px;
+    height: 77px;
+    top: 28.5%;
+    left: 5%;
+}
+
+.textoG {
+    position: absolute;
+    width: 300px;
+    height: 291px;
+    top: 29.5%;
+    left: 8%;
+}
+
+.notaG {
+
+    position: absolute;
+    width: 227px;
+    height: 134px;
+    top: 29.5%;
+    left: 15%;
+    display: none;
+}
+
+.textoG:hover + .notaG {
+    display: block;
+}
+
+.gulliver {
+    position: absolute;
+    width: 197px;
+    height: 271px;
+    top: 32%;
+    left: 20%;
+}
+
+
+
+
+/*H*/
+
+
+.H {
+    position: absolute;
+    width: 633px;
+    height: 950px;
+    left: 55%;
+    top: 3547px;
+
+    font-family: TT Jenevers;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 900px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    color: rgb(237, 28, 39);
+}
+
+.tituloH {
+
+    position: absolute;
+    width: 714px;
+    height: 77px;
+    left: 56%;
+    top: 33%;
+}
+
+.textoH {
+    position: absolute;
+    width: 297px;
+    height: 197px;
+    top: 34%;
+    left: 50%;
+}
+
+.notaH {
+
+    position: absolute;
+    width: 268px;
+    height: 181px;
+    top: 35%;
+    left: 60%;
+    display: none;
+}
+
+.textoH:hover + .notaH {
+    display: block;
+}
+
+
+/*I*/
+
+
+.I {
+    position: absolute;
+    width: 633px;
+    height: 950px;
+    left: 8%;
+    top: 3797px;
+
+    font-family: TT Jenevers;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 900px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    color: rgb(237, 28, 39);
+}
+
+.tituloI {
+
+    position: absolute;
+    width: 73px;
+    height: 291px;
+    top: 35%;
+    left: 10%;
+
+}
+
+.textoI {
+    position: absolute;
+    width: 300px;
+    height: 254px;
+    top: 36%;
+    left: 17%;
+}
+
+.notaI {
+    position: absolute;
+    width: 268px;
+    height: 128px;
+    top: 37.5%;
+    left: 25%;
+    display: none;
+}
+
+.textoI:hover + .notaI {
+    display: block;
+}
+
+
+
+/*J*/
+
+.J {
+    position: absolute;
+    width: 633px;
+    height: 950px;
+    left: 72%;
+    top: 4171px;
+
+    font-family: TT Jenevers;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 900px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    color: rgb(237, 28, 39);
+}
+
+.tituloJ {
+    position: absolute;
+    width: 300px;
+    height: 73px;
+    left: 56%;
+    top: 39%;
+
+}
+
+.textoJ {
+    position: absolute;
+    width: 300px;
+    height: 108px;
+    top: 40%;
+    left: 55%;
+}
+
+.notaJ {
+    position: absolute;
+    width: 268px;
+    height: 92px;
+    top: 40.5%;
+    left: 63%;
+    display: none;
+}
+
+.textoJ:hover + .notaJ {
+    display: block;
+}
+
+
+/*K*/
+
+
+.K {
+    position: absolute;
+    width: 633px;
+    height: 950px;
+    right: 70%;
+    top: 4638px;
+
+    font-family: TT Jenevers;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 900px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    color: rgb(237, 28, 39);
+}
+
+.tituloK {
+
+    position: absolute;
+    width: 403px;
+    height: 70px;
+    top: 41.5%;
+    left: 14%;
+}
+
+.textoK {
+    position: absolute;
+    width: 300px;
+    height: 287px;
+    top: 42.5%;
+    left: 8%;
+}
+
+.notaK {
+    position: absolute;
+    width: 268px;
+    height: 297px;
+    top: 41.75%;
+    left: 20%;
+    display: none;
+    z-index: 1;
+
+}
+
+.textoK:hover + .notaK {
+    display: block;
+}
+
+.mockingbird {
+
+    position: absolute;
+    width: 190px;
+    height: 281px;
+    top: 42.75%;
+    left: 34%;
+
+}
+
+
+
+
+
+/*L*/
+
+.L {
+    position: absolute;
+    width: 633px;
+    height: 950px;
+    left: 55%;
+    top: 4857px;
+
+    font-family: TT Jenevers;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 900px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    color: rgb(237, 28, 39);
+}
+
+.tituloL {
+    position: absolute;
+    width: 310px;
+    height: 77px;
+    top: 46%;
+    left: 33%;
+}
+
+
+.titulo2L {
+
+    position: absolute;
+    width: 70px;
+    height: 294px;
+    top: 44%;
+    left: 63%;
+}
+
+.texto2L {
+
+    position: absolute;
+    width: 300px;
+    height: 154px;
+    top: 46%;
+    left: 70%;
+}
+
+.notaL {
+    position: absolute;
+    width: 268px;
+    height: 178px;
+    top: 46.5%;
+    left: 80%;
+    display: none;
+}
+
+.texto2L:hover + .notaL {
+    display: block;
+}
+
+.lolita {
+    position: absolute;
+    width: 166px;
+    height: 279px;
+    top: 48%;
+    left: 70%;
+}
+
+
+
+
+/*M*/
+
+.M {
+    position: absolute;
+    width: 633px;
+    height: 950px;
+    left: 3%;
+    top: 5514px;
+
+    font-family: TT Jenevers;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 900px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    color: rgb(237, 28, 39);
+}
+
+.tituloM {
+    position: absolute;
+    width: 322px;
+    height: 77px;
+    top: 50%;
+    left: 14%;
+}
+
+.textoM {
+
+    position: absolute;
+    width: 300px;
+    height: 126px;
+    top: 51%;
+    left: 18%;
+}
+
+.notaM {
+    position: absolute;
+    width: 268px;
+    height: 223px;
+    top: 51.5%;
+    left: 14%;
+    display: none;
+    z-index: 1;
+}
+
+.textoM:hover + .notaM {
+    display: block;
+}
+
+.titulo2M {
+    position: absolute;
+    width: 294px;
+    height: 77px;
+    top: 53%;
+    left: 8%;
+}
+
+.hitler {
+    position: absolute;
+    width: 190px;
+    height: 290px;
+    top: 53.5%;
+    left: 24%;
+}
+
+/*N*/
+
+.N {
+    position: absolute;
+    width: 633px;
+    height: 950px;
+    left: 55%;
+    top: 6037px;
+
+    font-family: TT Jenevers;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 900px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    color: rgb(237, 28, 39);
+}
+
+.tituloN {
+    position: absolute;
+    width: 70px;
+    height: 450px;
+    top: 53%;
+    left: 65%
+}
+
+.textoN {
+    position: absolute;
+    width: 300px;
+    height: 267px;
+    top: 56%;
+    left: 73%;
+
+}
+
+.notaN {
+    position: absolute;
+    width: 268px;
+    height: 247px;
+    top: 57.5%;
+    left: 80%;
+    display: none;
+}
+
+.textoN:hover + .notaN {
+    display: block;
+}
+
+
+
+
+
+/*O*/
+
+.O {
+    position: absolute;
+    width: 633px;
+    height: 950px;
+    right: 65%;
+    top: 6285px;
+
+    font-family: TT Jenevers;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 900px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    color: rgb(237, 28, 39);
+}
+
+.tituloO {
+    position: absolute;
+    width: 444px;
+    height: 77px;
+    top: 57%;
+    left: 10%;
+}
+
+.textoO {
+
+    position: absolute;
+    width: 300px;
+    height: 136px;
+    top: 58%;
+    left: 8%;
+
+}
+
+.notaO {
+
+    position: absolute;
+    width: 268px;
+    height: 85px;
+    top: 58.75%;
+    left: 10%;
+    display: none;
+}
+
+.textoO:hover + .notaO {
+    display: block;
+}
+
+
+
+/*P*/
+
+
+.P {
+    position: absolute;
+    width: 633px;
+    height: 950px;
+    left: 23%;
+    top: 6834px;
+
+    font-family: TT Jenevers;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 900px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    color: rgb(237, 28, 39);
+}
+
+.tituloP {
+    position: absolute;
+    width: 488px;
+    height: 71px;
+    top: 60%;
+    left: 30%;
+}
+
+.textoP {
+
+    position: absolute;
+    width: 300px;
+    height: 196px;
+    top: 61%;
+    left: 55%;
+}
+
+.notaP {
+    position: absolute;
+    width: 300px;
+    height: 196px;
+    top: 62%;
+    left: 60%;
+    display: none;
+    z-index: 1;
+}
+
+.textoP:hover + .notaP {
+    display: block;
+}
+
+.titulo2P {
+    position: absolute;
+    width: 488px;
+    height: 71px;
+    top: 63%;
+    left: 10%;
+}
+
+
+/*Q*/
+
+
+.Q {
+    position: absolute;
+    width: 633px;
+    height: 950px;
+    left: 60%;
+    top: 7068px;
+
+    font-family: TT Jenevers;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 900px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    color: rgb(237, 28, 39);
+}
+
+.tituloQ {
+    position: absolute;
+    width: 38px;
+    height: 167px;
+    top: 65%;
+    left: 60%;
+}
+
+.textoQ {
+    position: absolute;
+    width: 300px;
+    height: 108px;
+    top: 65.5%;
+    left: 63%;
+}
+
+.notaQ {
+    position: absolute;
+    width: 268px;
+    height: 295px;
+    top: 66%;
+    left: 55%;
+    display: none;
+}
+
+.textoQ:hover + .notaQ {
+    display: block;
+}
+
+.quran {
+    position: absolute;
+    width: 194px;
+    height: 264px;
+    top: 63%;
+    left: 75%;
+}
+
+
+
+
+
+
+
+
+/*R*/
+
+
+.R {
+    position: absolute;
+    width: 633px;
+    height: 950px;
+    right: 65%;
+    top: 7520px;
+
+    font-family: TT Jenevers;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 900px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    color: rgb(237, 28, 39);
+}
+
+.tituloR {
+
+    position: absolute;
+    width: 71px;
+    height: 268px;
+    left: 10%;
+    top: 66%;
+}
+
+.textoR {
+    position: absolute;
+    width: 300px;
+    height: 178px;
+    top: 68%;
+    left: 16%;
+}
+
+.notaR {
+    position: absolute;
+    width: 268px;
+    height: 320.78px;
+    top: 69%;
+    left: 10%;
+    display: none;
+}
+
+.textoR:hover + .notaR {
+    display: block;
+}
+
+
+/*S*/
+
+
+.S {
+    position: absolute;
+    width: 633px;
+    height: 950px;
+    left: 55%;
+    top: 7880px;
+
+    font-family: TT Jenevers;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 900px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    color: rgb(237, 28, 39);
+}
+
+.tituloS {
+
+    position: absolute;
+    width: 358px;
+    height: 66px;
+    top: 69%;
+    left: 55%;
+}
+
+.textoS {
+
+    position: absolute;
+    width: 300px;
+    height: 196px;
+    top: 70%;
+    left: 50%;
+}
+
+.notaS {
+    position: absolute;
+    width: 268px;
+    height: 320.78px;
+    top: 71%;
+    left: 55%;
+    display: none;
+    z-index: 1;
+}
+
+.textoS:hover + .notaS {
+    display: block;
+}
+
+.titulo2S {
+    position: absolute;
+    width: 310px;
+    height: 66px;
+    top: 72.5%;
+    left: 70%;
+}
+
+.bela {
+    position: absolute;
+    width: 414px;
+    height: 276px;
+    top: 72%;
+    left: 40%;
+}
+
+/*T*/
+
+
+.T {
+    position: absolute;
+    width: 633px;
+    height: 950px;
+    right: 65%;
+    top: 8412px;
+
+    font-family: TT Jenevers;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 900px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    color: rgb(237, 28, 39);
+}
+
+.tituloT {
+    position: absolute;
+    width: 416px;
+    height: 66px;
+    top: 75%;
+    left: 10%;
+}
+
+.textoT {
+    position: absolute;
+    width: 300px;
+    height: 159px;
+    top: 76%;
+    left: 12%;
+}
+
+.notaT {
+    position: absolute;
+    width: 268px;
+    height: 92px;
+    top: 75%;
+    left: 15%;
+    display: none;
+}
+
+.textoT:hover + .notaT {
+    display: block;
+}
+
+/*U*/
+
+
+.U {
+    position: absolute;
+    width: 633px;
+    height: 950px;
+    left: 50%;
+    top: 8707px;
+
+    font-family: TT Jenevers;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 900px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    color: rgb(237, 28, 39);
+}
+
+.tituloU {
+
+    position: absolute;
+    width: 66px;
+    height: 198px;
+    top: 76%;
+    left: 65%;
+}
+
+.textoU {
+
+    position: absolute;
+    width: 300px;
+    height: 264px;
+    top: 78%;
+    left: 70%;
+}
+
+.notaU {
+    position: absolute;
+    width: 268px;
+    height: 137px;
+    top: 79%;
+    left: 60%;
+    display: none;
+}
+
+.textoU:hover + .notaU {
+    display: block;
+}
+
+
+.titulo2U {
+    position: absolute;
+    width: 353px;
+    height: 70px;
+    top: 81%;
+    left: 60%;
+
+
+}
+
+.tom {
+    position: absolute;
+    width: 225px;
+    height: 350px;
+    top: 79%;
+    left: 40%;
+}
+
+
+
+/*V*/
+
+
+.V {
+    position: absolute;
+    width: 633px;
+    height: 950px;
+    right: 75%;
+    top: 9194px;
+
+    font-family: TT Jenevers;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 900px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    color: rgb(237, 28, 39);
+}
+
+
+/*W*/
+
+
+.W {
+    position: absolute;
+    width: 633px;
+    height: 950px;
+    left: 10%;
+    top: 9527px;
+
+    font-family: TT Jenevers;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 900px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    color: rgb(237, 28, 39);
+}
+
+.tituloW {
+    position: absolute;
+    width: 625px;
+    height: 70px;
+    top: 82.75%;
+    left: 20%;
+}
+
+.textoW {
+    position: absolute;
+    width: 300px;
+    height: 234px;
+    top: 84%;
+    left: 25%;
+}
+
+.notaW {
+    position: absolute;
+    width: 268px;
+    height: 282px;
+    top: 82%;
+    left: 28%;
+    display: none;
+}
+
+.textoW:hover + .notaW {
+    display: block;
+}
+
+.wild {
+
+    position: absolute;
+    width: 244px;
+    height: 369px;
+    top: 86.5%;
+    left: 20%;
+}
+
+
+
+/*Y*/
+
+
+.Y {
+    position: absolute;
+    width: 633px;
+    height: 900px;
+    left: 55%;
+    top: 10007px;
+
+    font-family: TT Jenevers;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 900px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    color: rgb(237, 28, 39);
+}
+
+.tituloY {
+
+    position: absolute;
+    width: 77px;
+    height: 411px;
+    top: 87%;
+    left: 60%;
+}
+
+.textoY {
+    position: absolute;
+    width: 300px;
+    height: 126px;
+    top: 90%;
+    left: 70%;
+}
+
+.notaY {
+    position: absolute;
+    width: 268px;
+    height: 282px;
+    top: 88%;
+    left: 75%;
+    display: none;
+}
+
+.textoY:hover + .notaY {
+    display: block;
+}
+
+
+/*X*/
+
+
+.X {
+    position: absolute;
+    width: 633px;
+    height: 950px;
+
+    right: 75%;
+    bottom: 540px;
+
+    font-family: TT Jenevers;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 900px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    color: rgb(237, 28, 39);
+}
+
+
+/*Z*/
+
+
+.Z {
+    position: absolute;
+    width: 633px;
+    height: 950px;
+    left: 20%;
+    top: 90%;
+
+    font-family: TT Jenevers;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 900px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    color: rgb(237, 28, 39);
+}
+
+.tituloZ {
+    position: absolute;
+    width: 273px;
+    height: 73px;
+    top: 94%;
+    left: 30%;
+
+}
+
+.textoZ {
+    position: absolute;
+    width: 300px;
+    height: 198px;
+    top: 95%;
+    left: 35%;
+}
+
+.notaZ {
+    position: absolute;
+    width: 268px;
+    height: 223px;
+    top: 95%;
+    left: 50%;
+    display: none;
+}
+
+.textoZ:hover + .notaZ {
+    display: block;
+}
+
+
+
+
+.footer {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(237, 28, 39);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+
+    #square {
+        left: calc(50% - 75px);
+        top: calc (50% - 100px);
+        width: 150px;
+        height: 200px;
+
+
+    }
+
+
+
+}

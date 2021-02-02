@@ -1,0 +1,432 @@
+@font-face {
+    src: url(fonts/TTJenevers-Medium.ttf);
+    font-family: Jen;
+}
+
+
+body {
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+
+
+
+/* MENU */
+
+#menu {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(237, 28, 39);
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 1001;
+    font-family: TT Jenevers;
+font-style: normal;
+font-weight: 500;
+    font-size: 18px;
+
+}
+
+.enciclopedia {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    padding-left: 40px;
+    box-sizing: border-box;
+    color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.assinatura {
+    display: flex;
+    visibility: hidden;
+    align-items: center;
+    position: absolute;
+    width: 231px;
+    height: 46px;
+    left: 235px;
+    top: 55px;
+
+}
+
+.enciclopedia:hover .assinatura {
+    visibility: visible;
+
+}
+
+.enciclopedia:hover  {
+     -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 0.7px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+#navega {
+    width: 50%;
+    height: 100%;
+    /* background-color: palevioletred;*/
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 40px;
+
+}
+
+.conteudos {
+    display: flex;
+    float: left;
+    padding: 0px 20px 0px 60px;
+    box-sizing: border-box;
+    color: white;
+        -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 0.7px;
+
+}
+
+.menu-item {
+    display: flex;
+    float: left;
+    padding: 0px 20px 0px 60px;
+    box-sizing: border-box;
+    font-size: 18px;
+
+}
+
+
+.menu-item a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu-item a:hover {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 0.7px;
+}
+
+
+
+
+.hero{
+
+width: 100%;
+height: 797px;
+    background-image: url(img/capa.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+}
+
+.square {
+    width: 200px;
+    height: 300px;
+    background-color: rgb(237, 28, 39);
+    left: calc(50% - 100px);
+    top: calc(50% - 150px);
+    position: fixed;
+    z-index: 1;
+}
+
+
+
+
+
+/* SECTION 2 */
+
+
+.section2 {
+    width: 100%;
+    height: 1500px;
+    position: relative;
+    display: flex;
+}
+
+
+#home {
+    position: absolute;
+width: 63px;
+height: 23px;
+    left: 2%;
+    bottom: 3%;
+    background-size: cover;
+    position: fixed;
+    z-index: 999;
+    font-family: TT Jenevers;
+font-style: normal;
+font-weight: 500;
+    font-size: 18px;
+    color: rgb(237, 28, 39);
+    text-decoration: none;
+    
+}
+
+
+
+.offensive {
+    position: absolute;
+width: 416px;
+height: 38px;
+    top: 10%;
+    left: 10%;
+}
+
+.mick {
+    position: absolute;
+width: 133px;
+height: 30px;
+    top: 12%;
+    left: 27%;
+}
+
+.citacao-mick {
+    position: absolute;
+width: 369px;
+height: 271px;
+    top: 17%;
+    left: 10%;
+}
+
+iframe {
+    position: absolute;
+width: 469px;
+height: 295px;
+    top: 19%;
+    left: 55%;
+}
+
+video {
+    position: absolute;
+width: 469px;
+height: 295px;
+    top: 42%;
+    left: 15%;
+}
+
+
+
+
+.foi {
+    position: absolute;
+width: 170px;
+height: 30px;
+    top: 70%;
+    left: 55%;
+}
+
+.lara {
+    position: absolute;
+width: 130px;
+height: 30px;
+    top: 72%;
+    left: 65%;
+}
+
+.citacao-lara {
+    position: absolute;
+width: 369px;
+height: 181px;
+    top: 77%;
+    left: 55%;
+}
+
+.img-lara {
+    position: absolute;
+width: 605px;
+height: 363px;
+    top: 70%;
+    left: 10%;
+}
+
+
+
+
+
+
+.section3 {
+  background-color: rgb(237, 28, 39);
+    width: 100%;
+    height:  3788px;
+    display: flex;
+    position: relative;
+}
+
+
+
+
+.higienizacao {
+position: absolute;
+width: 451px;
+height: 68px;
+    top: 5%;
+    left: 4%;
+}
+
+.higienizacao-texto {
+    
+position: absolute;
+width: 369px;
+height: 251px;
+    top: 8.5%;
+    left: 12%;
+}
+
+.banned {
+    position: absolute;
+width: 442px;
+height: 598px;
+    top: 5%;
+    right: 12%;
+}
+
+
+
+.lionel {
+    position: absolute;
+width: 708px;
+height: 95px;
+    top: 20%;
+    left: 40%;
+}
+
+.citacao-lionel {
+    position: absolute;
+width: 369px;
+height: 274px;
+    top: 24.5%;
+    left: 40%;
+}
+
+
+
+.barcelona {
+    position: absolute;
+width: 556px;
+height: 98px;
+    top: 36%;
+    left: 6%;
+}
+
+.citacao-barcelona {
+    position: absolute;
+width: 369px;
+height: 240px;
+    top: 40.5%;
+    left: 12%;
+}
+
+.img-barcelona {
+  position: absolute;
+width: 496px;
+height: 332px;
+    top: 36%;
+    right: 12%;
+}
+
+
+.antissemita {
+    
+position: absolute;
+width: 569px;
+height: 98px;
+    top: 50%;
+        left: 40%;
+}
+
+.citacao-antissemita {
+    position: absolute;
+width: 369px;
+height: 156px;
+    top: 54.5%;
+    left: 40%;
+}
+
+
+
+.nazi {
+    position: absolute;
+width: 616px;
+height: 128px;
+    top: 65%;
+    left: 6.5%;
+}
+
+
+.citacao-nazi {
+    position: absolute;
+width: 369px;
+height: 240px;
+    top: 70.5%;
+    left: 12%;
+}
+
+.img-nazi {
+    position: absolute;
+width: 526px;
+height: 324px;
+    top: 65%;
+    right: 12%;
+}
+
+
+
+.twain {
+    position: absolute;
+width: 463px;
+height: 98px;
+    top: 80%;
+    left: 40%;
+}
+
+.citacao-twain {
+    position: absolute;
+width: 369px;
+height: 152px;
+    top: 84.5%;
+    left: 40%;
+    
+}
+
+.footer {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(237, 28, 39);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0%;
+    z-index: 1000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
